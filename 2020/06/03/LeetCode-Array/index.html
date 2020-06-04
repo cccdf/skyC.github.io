@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="article title, Hexo">
+    <meta name="keywords" content="LeetCode Array, Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>article title | Hexo</title>
+    <title>LeetCode Array | Hexo</title>
     <link rel="icon" type="image/png" href="/skyC.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/skyC.github.io/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/skyC.github.io/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/skyC.github.io/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">article title</h1>
+                    <h1 class="description center-align post-title">LeetCode Array</h1>
                 </div>
             </div>
         </div>
@@ -428,9 +428,17 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/skyC.github.io/tags/LeetCode/">
+                                <span class="chip bg-color">LeetCode</span>
+                            </a>
+                        
+                            <a href="/skyC.github.io/tags/Coding-Practice/">
+                                <span class="chip bg-color">Coding Practice</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -442,7 +450,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-06-02
+                    2020-06-03
                 </div>
                 
 
@@ -458,7 +466,29 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h2 id="LeetCode-Array"><a href="#LeetCode-Array" class="headerlink" title="LeetCode Array"></a>LeetCode Array</h2><h3 id="Basic-algorithm-in-array"><a href="#Basic-algorithm-in-array" class="headerlink" title="Basic algorithm in array"></a>Basic algorithm in array</h3><p>First of all, basic operations, such as, insert, delete, search.<br>The insert operation, time complexity depends on the position inserted. O(N).<br>The delete operation, time complexity depends on the position deleted. O(N).<br>Search. Index(O(1)), linear search(O(N)), binary search(O(N/2)).</p>
+<p>If in-place or no extra memory, try two pointers.(eg, remove duplicate from sorted array)</p>
+<p>If we want to check sum or product, try to use hashmap(eg. two sum, double product). </p>
+<p>Subarray relevant problem, try to use slide windows(eg. max consecutive ones).</p>
+<p>Nth max or min, use set and delete or use heap(eg, third max number). </p>
+<p>Use array index as hashmap with no extra memory(eg. number disappear).</p>
+<h3 id="Sum-or-product"><a href="#Sum-or-product" class="headerlink" title="Sum or product"></a>Sum or product</h3><ol>
+<li>use two pointers(sort if necessary)</li>
+<li>use hash set </li>
+</ol>
+<p>LC 1, 15</p>
+<h3 id="Duplicate"><a href="#Duplicate" class="headerlink" title="Duplicate"></a>Duplicate</h3><ol>
+<li>sort then compared adjcent elements step by step</li>
+<li>use set</li>
+</ol>
+<p>LC 217, </p>
+<h3 id="LC238-product-of-array-except-self"><a href="#LC238-product-of-array-except-self" class="headerlink" title="LC238 product of array except self"></a>LC238 product of array except self</h3><p>create two array, left and right. Calculate each product then mix result.</p>
+<h3 id="LC-53-max-subarray"><a href="#LC-53-max-subarray" class="headerlink" title="LC 53 max subarray"></a>LC 53 max subarray</h3><p>Divede and conquer. Solution template: Define the base case(s).</p>
+<p>Split the problem into subproblems and solve them recursively.</p>
+<p>Merge the solutions for the subproblems to obtain the solution for the original problem.</p>
+<p>Greedy. </p>
+<p>Dynamic programming.</p>
+
             </div>
             <hr/>
 
@@ -483,7 +513,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://cccdf.github.io/skyC.github.io/skyC.github.io/2020/06/02/article-title/">https://cccdf.github.io/skyC.github.io/skyC.github.io/2020/06/02/article-title/</a>
+                    <a href="https://cccdf.github.io/skyC.github.io/skyC.github.io/2020/06/03/LeetCode-Array/">https://cccdf.github.io/skyC.github.io/skyC.github.io/2020/06/03/LeetCode-Array/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -520,7 +550,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/skyC.github.io/tags/LeetCode/">
+                                    <span class="chip bg-color">LeetCode</span>
+                                </a>
+                            
+                                <a href="/skyC.github.io/tags/Coding-Practice/">
+                                    <span class="chip bg-color">Coding Practice</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -686,9 +724,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/skyC.github.io/2020/06/03/LeetCode-Array/">
                     <div class="card-image">
@@ -706,9 +745,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-03
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-03
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -717,6 +756,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -739,19 +779,19 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/skyC.github.io/2020/06/02/hello-world/">
+                <a href="/skyC.github.io/2020/06/02/article-title/">
                     <div class="card-image">
                         
                         
-                        <img src="/skyC.github.io/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/skyC.github.io/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">article title</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            
                         
                     </div>
                     <div class="publish-info">
