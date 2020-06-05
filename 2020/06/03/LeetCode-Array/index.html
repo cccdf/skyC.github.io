@@ -488,6 +488,13 @@
 <p>Merge the solutions for the subproblems to obtain the solution for the original problem.</p>
 <p>Greedy. </p>
 <p>Dynamic programming.</p>
+<h3 id="LC-11-container-with-most-water"><a href="#LC-11-container-with-most-water" class="headerlink" title="LC 11 container with most water"></a>LC 11 container with most water</h3><p>Two pointers. Hold a variable to get max area. Each step move the shortest one and calculate area update it.</p>
+<h3 id="LC-33-Search-in-rotated-sorted-array"><a href="#LC-33-Search-in-rotated-sorted-array" class="headerlink" title="LC 33 Search in rotated sorted array"></a>LC 33 Search in rotated sorted array</h3><p>It is a sorted array and must solve it in O(logN) so binary search is appropriate. </p>
+<ol>
+<li>find the rotated pivot then judge target location. If it located in left part, do binary search in left part. Otherwise, do binary search in right part. It is two pass binary search. One for finding rotated pivot and one for target.(LC 153 is about how to find rotated pivot, part of this problem)</li>
+<li>one-pass binary search. The idea is that we add some condition checks in the normal binary search to narrow down the scope of the search. Firstly, judge which part is non-rotated by pivot elements. Then judge if the target is located in the non-rotated subarray.</li>
+</ol>
+<h3 id="LC-152-Maximum-product-subarray"><a href="#LC-152-Maximum-product-subarray" class="headerlink" title="LC 152 Maximum product subarray"></a>LC 152 Maximum product subarray</h3><p>We have to keep track of highest and lowest product since there are negetive numbers in this array.</p>
 
             </div>
             <hr/>
